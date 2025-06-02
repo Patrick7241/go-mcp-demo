@@ -1,0 +1,39 @@
+*.sql
+
+# Go 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 编译输出目录
+/bin/
+/build/
+/out/
+
+# Go Modules 缓存和依赖（如果你不想提交vendor目录）
+/vendor/
+
+# 编译缓存目录
+/pkg/mod/
+
+# 测试输出文件
+*.test
+
+# 配置文件，可能包含敏感信息（视项目情况决定是否忽略）
+# *.env
+
+# 日志文件
+*.log
+
+# IDE 和编辑器配置文件
+.vscode/
+.idea/
+*.iml
+
+# macOS 系统文件
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
