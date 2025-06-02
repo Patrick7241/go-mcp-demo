@@ -1,12 +1,12 @@
 ollama:
-  model: your_model_name_here  # 例如：qwen2:1.5b
+  model: qwen2:1.5b
 
 mysql:
-  host: your_mysql_host       # 例如：localhost
-  port: your_mysql_port       # 例如：3306
-  user: your_mysql_user       # 例如：root
-  password: your_mysql_password # 例如：123456
-  database: your_database_name  # 例如：mcp_test
+   host: localhost
+   port: 3306
+   user: root
+   password: tjp20040808
+   database: mcp_test
 
 sql:
-  sqlFilePath: your_sql_file_path  # 例如：D:\go-mcp-demo\pkg\products.sql
+  sqlFilePath: D:\go-mcp-demo\pkg\products.sql

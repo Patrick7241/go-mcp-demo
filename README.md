@@ -2,6 +2,8 @@
 
 本项目基于 [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) 实现了一个 `MCP Server` 与 `MCP Client` 通信的演示，结合 [Ollama](https://ollama.com/) 启动本地大语言模型，实现自然语言调用工具的能力。
 
+[b站演示视频](https://www.bilibili.com/video/BV1N87Dz2Efn)
+
 ## ✨ 功能概览
 
 - 集成 MCP Server + Client 通信框架
